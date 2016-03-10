@@ -1,0 +1,13 @@
+<?php
+class Contacts_m extends CI_Model {
+
+    function __construct(){
+        parent::__construct();
+    }
+
+
+    function addContacts($add){	
+	$this->db->insert('contact',$add);
+	}
+}
+?>
