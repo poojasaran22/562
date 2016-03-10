@@ -1,0 +1,78 @@
+<?php
+$this->load->view('includes/header.php');
+?>
+<html>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">About
+                        <strong>Decent Decorators</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive img-border-left" src="img/bg.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p>From last 20 years headed by John Smith , Charles Adams & Amanda Johnson for decent decorators, passion is to transform the essence of emotions and thoughts into forms, colors and textures.We deeply believe that the best outcome of inspired and relevant interior design can be characterized by a "fusing" of architectural context, geographical/ cultural influence, and the client's own style and color sensibilities, a careful melding of these elements provides an original, personal and thoughtful design aesthetic in which people love to live, and creating these designs is the mission of decent decorators.</p>
+                    
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Our
+                        <strong>Team</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/1.jpg" alt="">
+                    <h3>John Smith
+                        <small>Director</small>
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/2.jpg" alt="">
+                    <h3>Charles Adams
+                        <small>Founder</small>
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/3.jpg" alt="">
+                    <h3>Amanda Johnson
+                    <br>
+                        <small>Co-Founder</small>
+                    </h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+ // footer
+    
+    <?php
+$this->load->view('includes/footer.php');
+?>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
