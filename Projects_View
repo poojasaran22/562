@@ -1,0 +1,73 @@
+<?php
+$this->load->view('includes/header.php');
+?>
+
+<html>
+<body>
+ 
+ <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Decent Decorators
+                        <strong>Projects</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full" src="img/4.jpg" alt="">
+                    <h2>Master bedroom's Restroom
+                        <br>
+                        <small>October, 2013</small>
+                    </h2>
+                    <p>This bathroom was designed with german marbles, it has 2 basins, have ample amount of light place to sit outside the bathing place, have good ventilation, have small cabinets, safe electrical appliances points.</p>
+                    
+                  
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full" src="img/20.jpg" alt="">
+                    <h2>Master Bedroom
+                        <br>
+                        <small>January, 2011</small>
+                    </h2>
+                    <p>Master bedroom was designed to have lot of space,elavated roofs and french windows.</p>
+                    
+                    
+                    <hr>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <img class="img-responsive img-border img-full" src="img/10.jpg" alt="">
+                    <h2>Main Door
+                        <br>
+                        <small>June, 2013</small>
+                    </h2>
+                    <p>This door is designed with acrylic sheets that helps emmit LED lights with the mirror. It has 2 doors, one safety door.</p>
+                    
+                    
+                    
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+    
+ // footer
+    
+    <?php
+$this->load->view('includes/footer.php');
+?>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
