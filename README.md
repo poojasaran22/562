@@ -14,3 +14,4 @@ I have created a table named ‘contact’ inside the database ‘psarang_ci2’
 I have included the Header (header.php) and Footer (footer.php) pages in the includes folder that will be repetitive in all the pages. In the extra section I have provided the snippet of their code. Since this code is going to be repeated in all the pages I found it wise to include them in different pages and then call these pages on home, about, projects and contact page.
 
 nice design
+/
