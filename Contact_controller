@@ -1,0 +1,40 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Contact extends CI_Controller {
+
+  	 
+ function __construct()
+ {
+ 
+  parent::__construct();
+  	$this->load->model('contacts_m');
+ }
+ 
+   
+public function index(){
+	$this->load_contacts();	
+}
+    
+function load_contacts()
+{
+	
+	$this->load->view('contact');
+}
+
+//--------------------adding contacts-------------------------------
+
+function addContacts(){
+	if(isset($_POST['name']) && $_POST['name'] != ''){
+		$insert_array = array(
+			'Name' => isset($_POST['name']) && $_POST['name'] != '' ? $_POST['name'] : '',
+			'Email' => isset($_POST['email']) && $_POST['email'] != '' ? $_POST['email'] : '',
+			'Phone' => isset($_POST['tel']) && $_POST['tel'] != '' ? $_POST['tel'] : '',
+			'Message' => isset($_POST['message']) && $_POST['message'] != '' ? $_POST['message'] : '',
+		);
+		$this->contacts_m->addContacts($insert_array);
+	}
+	$this->load_contacts();		
+}
+
+}
